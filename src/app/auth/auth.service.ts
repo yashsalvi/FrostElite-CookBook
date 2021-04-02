@@ -23,7 +23,7 @@ export class AuthService{
       private router:Router){}
        
 signup(email:string,password:string){
-return this.http.post<AuthResponseData>('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyDqCeUoW4mrqsXQQ3GUNsq5CTuub1t7m-g',
+return this.http.post<AuthResponseData>('******Get the link from firebase realtime database*******',
 {
 email:email,
 password:password,
@@ -61,7 +61,7 @@ autoLogout(expirationDuration:number){
 
 login(email:string,password:string){
   return this.http.post<AuthResponseData>(
-    'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDqCeUoW4mrqsXQQ3GUNsq5CTuub1t7m-g',
+    '******Get the link from firebase realtime database*******',
    { email:email,
     password:password,
     returnSecureToken:true
