@@ -19,7 +19,6 @@ setRecipes(recipes:Recipe[]){
   this.recipesChanged.next(this.recipes.slice())
 }
 
-
   getRecipes(){
       return this.recipes.slice();
   }
