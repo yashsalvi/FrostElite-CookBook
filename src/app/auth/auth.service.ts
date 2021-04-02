@@ -23,7 +23,7 @@ export class AuthService{
       private router:Router){}
        
 signup(email:string,password:string){
-return this.http.post<AuthResponseData>('******Get the link from firebase realtime database*******',
+return this.http.post<AuthResponseData>('*****Get the link from firebase realtime database******',
 {
 email:email,
 password:password,
