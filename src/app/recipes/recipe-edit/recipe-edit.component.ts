@@ -22,7 +22,7 @@ recipeForm: FormGroup;
     this.id= +params['id'];
     this.editMode = params['id'] != null;
     console.log(this.editMode); 
-    this.initForm();                                    // we call it here because that where the routeparams change because that indicates that we reoladed the page.
+    this.initForm();                                    
   }
 );
   }
@@ -78,12 +78,12 @@ recipeForm: FormGroup;
               );
             }
           } 
-         }                                            //access the name of the recipe and assign it here (i.e recipeName)
+         }                                           
        
      
        this.recipeForm =new FormGroup({
          'name':new FormControl(recipeName,Validators.required),
-         'description':new FormControl(recipeDescription,Validators.required),      // If we are in edit mode it will  assign the name of recipe we are currently editing or it will be assigned null if we are not in edit mode.
+         'description':new FormControl(recipeDescription,Validators.required),      
          'imagePath':new FormControl(recipeImagePath,Validators.required),
          'ingredients':recipeIngredients
        })
