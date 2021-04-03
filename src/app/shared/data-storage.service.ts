@@ -15,7 +15,7 @@ constructor(private http:HttpClient,
 
     storeRecipes(){
         const recipes=this.recipeService.getRecipes();
-        this.http.put('https://ng-course-recipe-book-b816d-default-rtdb.firebaseio.com/recipes.json',recipes)
+        this.http.put('****Any endpoint****',recipes)
     .subscribe(response=>{
         console.log(response);
     });
@@ -24,7 +24,7 @@ constructor(private http:HttpClient,
 
     fetchRecipes(){
   
-        return this.http.get<Recipe[]>('https://ng-course-recipe-book-b816d-default-rtdb.firebaseio.com/recipes.json',
+        return this.http.get<Recipe[]>('****Any endpoint****',
      ).pipe(
     map(recipes=>{
         return recipes.map(recipe=>{
