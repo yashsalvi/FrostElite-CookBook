@@ -33,7 +33,7 @@ this.slService.addIngredients(ingredients);
 
 addRecipe(recipe:Recipe){                           
   this.recipes.push(recipe);
-  this.recipesChanged.next(this.recipes.slice());    // emits a copy of updated recipe
+  this.recipesChanged.next(this.recipes.slice());   
 }
 
 updateRecipe(index:number,newRecipe:Recipe){                      
@@ -45,7 +45,6 @@ deleteRecipe(index:number){
   this.recipes.splice(index,1);
   this.recipesChanged.next(this.recipes.slice());
 }
-
 
 
 }
