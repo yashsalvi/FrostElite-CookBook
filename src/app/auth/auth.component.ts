@@ -17,7 +17,6 @@ export class AuthComponent implements OnDestroy{
   error: string = null;
   @ViewChild(PlaceholderDirective, { static: false })
   alertHost: PlaceholderDirective;
-
   private closeSub:Subscription;
 
   constructor(
