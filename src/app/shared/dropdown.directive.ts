@@ -1,10 +1,7 @@
 import {Directive, HostBinding, HostListener,ElementRef} from '@angular/core';
-
-
 @Directive({
 selector: '[appDropdown]'
 })
-
 
 export class DropdownDirective{
 
