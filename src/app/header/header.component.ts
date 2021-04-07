@@ -8,6 +8,7 @@ import { DataStorageService } from '../shared/data-storage.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
 export class HeaderComponent implements OnInit,OnDestroy {
   isAuthenticated=false;
   private userSub:Subscription
