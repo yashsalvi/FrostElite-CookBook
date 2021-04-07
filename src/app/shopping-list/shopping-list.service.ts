@@ -35,7 +35,6 @@ deleteIngredients(index:number){
     this.ingredientsChanged.next(this.ingredients.slice());
 }
 
-
 }
 
 
