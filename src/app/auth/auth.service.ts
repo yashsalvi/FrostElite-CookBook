@@ -119,7 +119,6 @@ private handleAuthentication(email:string,userId:string,token:string,expiresIn:n
 }
 
 
-  
 private handleError(errorRes:HttpErrorResponse){
   let errorMessage = 'An unknown error occured';
   if(!errorRes.error || !errorRes.error.error){
