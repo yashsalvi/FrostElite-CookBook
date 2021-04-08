@@ -72,7 +72,6 @@ login(email:string,password:string){
         resData.localId,
         resData.idToken,
         +resData.expiresIn,     
-   
       )
      })
     )
