@@ -35,7 +35,6 @@ onLogout(){
     this.dataStorageService.fetchRecipes().subscribe();
   }
 
-
   ngOnDestroy(){
     this.userSub.unsubscribe();
   }
