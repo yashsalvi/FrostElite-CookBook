@@ -12,7 +12,6 @@ constructor(private http:HttpClient,
     private recipeService:RecipeService,
     private authService:AuthService){}
 
-
     storeRecipes(){
         const recipes=this.recipeService.getRecipes();
         this.http.put('****Any endpoint****',recipes)
@@ -22,8 +21,7 @@ constructor(private http:HttpClient,
     
     }
 
-    fetchRecipes(){
-  
+    fetchRecipes(){ 
         return this.http.get<Recipe[]>('****Any endpoint****',
      ).pipe(
     map(recipes=>{
