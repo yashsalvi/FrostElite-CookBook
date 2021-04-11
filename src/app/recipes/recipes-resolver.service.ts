@@ -17,5 +17,4 @@ resolve(route:ActivatedRouteSnapshot,state:RouterStateSnapshot){
         return recipes;
     }
    }
-
 }
