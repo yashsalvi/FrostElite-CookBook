@@ -5,7 +5,6 @@ import { DropdownDirective } from "./dropdown.directive";
 import { LoadingSpinnerComponent } from "./loading-spinner/loading-spinner.component";
 import { PlaceholderDirective } from "./placeholder/placeholder.directive";
 
-
 @NgModule({
 declarations:[
 AlertComponent,
