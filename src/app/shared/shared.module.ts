@@ -25,7 +25,6 @@ DropdownDirective,
 CommonModule
 ]
 
-
 })
 export class SharedModule{
 
