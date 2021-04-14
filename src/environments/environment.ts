@@ -6,7 +6,6 @@ export const environment = {
   production: false,
   firebaseAPIKey:'AIzaSyDqCeUoW4mrqsXQQ3GUNsq5CTuub1t7m-g'
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
